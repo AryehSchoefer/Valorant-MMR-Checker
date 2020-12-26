@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+body {
+	background-color: #111111;
+}
+
+h1 {
+	text-align: center;
+	padding: 2.5rem;
+	font-size: 3rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+}
+
+label {
+	margin: 1rem 0 0.25rem 0;
+}
+
+input {
+	padding: 0.25rem;
+	color: black;
+	font-size: 1rem;
+}
+
+.toggle-password-container {
+	display: inline-block;
+}
+
+.toggle-password {
+	color: lightgray;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.toggle-password:hover {
+	cursor: pointer;
+	color: darkgray;
+}
+
+#getmmr {
+	padding: 1rem;
+	width: 25%;
+	font-weight: 600;
+	margin: 1rem auto;
+	color: black;
+}
+
+.error-container {
+	text-align: center;
+}
+
+.error {
+	display: none;
+	color: red;
+}
+
+.loading {
+	display: none;
+	width: 100px;
+	margin: 1rem auto 0 auto;
+}
+
+.results {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2rem;
+}

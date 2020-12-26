@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="app.js"></script>
+    <title>Valorant MMR Checker</title>
+</head>
+<body>
+    <main>
+        <h1>Valorant MMR Checker</h1>
+        <form>
+            <label>Riot Name:</label>
+            <input class="username" placeholder="e.g. FiihNAcc" type="text">
+            <label>Riot Password:</label>
+            <input class="password" placeholder="e.g. password123" type="password">
+            <div class="toggle-password-container">
+                <small class="toggle-password">show password</small>
+            </div>
+            <label>Region:</label>
+            <input class="region" placeholder="e.g. EU" type="text">
+            <button id="getmmr" type="submit">Get MMR</button>
+            <img class="loading" src="./images/Rolling-1s-200px.gif" alt="LOADING...">
+        </form>
+    </main>
+    <div class="error-container">
+        <h3 class="error">Error</h3>
+    </div>
+    <section class='results'>
+        <h2 class='elo'>Old Elo: TBD</h2>
+        <h2 class='elo'>Current Elo: TBD</h2>
+    </section>
+</body>
+</html>

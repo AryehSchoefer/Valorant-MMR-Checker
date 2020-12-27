@@ -65,6 +65,12 @@ input {
 	color: black;
 }
 
+@media only screen and (max-width: 600px) {
+	#getmmr {
+		width: 40%;
+	}
+}
+
 .error-container {
 	text-align: center;
 }
@@ -81,7 +87,21 @@ input {
 }
 
 .results {
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.4fr 1fr;
 	padding-top: 2rem;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.fa-github {
+	padding: 1rem;
 }

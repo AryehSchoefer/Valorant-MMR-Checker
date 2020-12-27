@@ -52,7 +52,6 @@ async function getAccessToken(cookies, username, password) {
 				headers: {
 					Cookie: cookies,
 				},
-				withCredentials: true,
 			}
 		)
 

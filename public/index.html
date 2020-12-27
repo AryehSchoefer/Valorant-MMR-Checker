@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/ranks/22.png">
+    <script src="https://kit.fontawesome.com/d9eb698dba.js" crossorigin="anonymous"></script>
     <script defer src="app.js"></script>
     <title>Valorant MMR Checker</title>
 </head>
@@ -27,9 +29,24 @@
     <div class="error-container">
         <h3 class="error">Error</h3>
     </div>
-    <section class='results'>
-        <h2 class='elo'>Old Elo: TBD</h2>
-        <h2 class='elo'>Current Elo: TBD</h2>
+    <section class="results">
+        <div class="elo-container">
+            <h2>Old Elo:</h2>
+            <h2>TBD</h2>
+        </div>
+        <div class="elo-container">
+            <h2>Current Elo:</h2>
+            <h2>TBD</h2>
+        </div>
+        <div class="rank-container">
+            <img class="old-rank" src="images/ranks/20.png" alt="old rank">
+        </div>
+        <div class="rank-container">
+            <img class="new-rank" src="images/ranks/21.png" alt="new rank">
+        </div>
     </section>
+    <footer>
+        <a title="GitHub" href="https://github.com/AryehSchoefer"><i class="fab fa-github fa-2x"></i></a>
+    </footer>
 </body>
 </html>
